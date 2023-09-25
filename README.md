@@ -46,3 +46,39 @@ Think about the difference between `p` and `puts`. Using `p` in development is h
 Keep your code simple. You have all the tools you need to effectively construct the game. This is an exercise in organization, planning, and creativity.
 
 Have fun! This medium is prime for easter eggs and (class appropriate) inside jokes.
+
+
+PLANNING
+
+1. TREASURE HUNT: AUSTRALIA
+Welcome message: "G'day, mate. You have arrived in the Australian Outback with one mission...to find Australia's most valuable treasure. Luckily, you have found the only map and it has led you to the starting point of your mission. Now you must decide which direction to go first. Choose wisely! There are many dangers ahead."
+Enter text: N S E W
+If North- Quicksand
+If South- Right direction: You find a river filled with saltwater crocodiles. Do you attempt to cross or run away?
+If East- Kangaroos
+If West- Beach of box jellyfish
+
+Enter text: cross river or run
+Run - run into deadly kangaroos
+Cross - friendly crocodile  lets you ride on his back, you become best friends
+
+Once you get to the other side of the river, you see a cave. After the entrance, there are four paths.
+N- Kangaroos
+S- exit the cave without finding anything
+E- You are bitten by a redback spider and slowly die
+W- You find a chamber with a riddle on the wall, you must speak the answer to open the door
+3 tries
+Q: What's the object-oriented way to become wealthy?
+A: Inheritance
+
+Wrong answer: A different door opens, kangaroos come out and kill you
+Right answer: the door to the treasure chamber opens....but it's guarded by the most venemous snake in the world....the Taipan snake!! Either try to walk around or climb over.
+Walk around: The snakes ignore you because they're just chillin and you get to the chest of treasure.
+Climb over: You grab a vine but it's really a snake. You dead
+
+You open the chest. You've found Australia's most valuable treasure: Chris Hemworth's collection of movie memoribilia! Including Thor's eyepatch, his costume from his one scene in Star Trek, and a picture with his BFF and co-star Tessa Thompson. You grab the treasure and turn to escape BUT the whole army of emus is guarding the exits. What do you do???
+Fight: The emus kill you
+Run: They kill you
+Beg for mercy: The emus laugh at yu begging for your life, but the crocodile from before hears you and arrives to save the day. You ride on its back to safety and go see the latest Thor movie together. 
+
+
