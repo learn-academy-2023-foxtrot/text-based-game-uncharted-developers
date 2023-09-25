@@ -81,4 +81,23 @@ Fight: The emus kill you
 Run: They kill you
 Beg for mercy: The emus laugh at yu begging for your life, but the crocodile from before hears you and arrives to save the day. You ride on its back to safety and go see the latest Thor movie together. 
 
+If the answer is wrong:
+For each wrong answer it askes you the quastion again. Takes you to the begining to the game. 
 
+WHILE the incorrect value is put in a massage pops up with correct response
+
+
+
+def playAgain 
+        puts "Would you like to play again? (y/n)"
+        answer = gets.downcase.chomp 
+        if answer == "n"
+            # restart = false 
+            puts "Ba-bye"
+        elsif answer == "y"
+            round_one
+        end
+    end
+# def round_one
+    # end
+# p round_one

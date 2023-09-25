@@ -7,17 +7,22 @@ puts 'Enter which direction you would like to go (north,south, east, west)'
 
 first_direction = gets.downcase.chomp 
 
-if first_direction.include? 'north'
-    puts 'you step in quicksand and die'
-elsif first_direction.include? 'east'
-    puts 'you stumble on a mob of buff kangaroos that are flexing at you and you die'
-elsif first_direction.include? 'west'
-    puts 'you find a beach and decide to go swimming but beach has box jellyfish and you die'
-elsif first_direction.include?  'south'
-    puts 'You find a river filled with saltwater crocodiles. Do you attempt to cross or run away?'
-else
-    puts 'please enter direction'
+ first_direction == 'north' || 'west' || 'east'
+    if first_direction.include? 'north'
+        puts 'you step in quicksand and die'
+        
+    elsif first_direction.include? 'east'
+        puts 'you stumble on a mob of buff kangaroos that are flexing at you and you die'
+    elsif first_direction.include? 'west'
+        puts 'you find a beach and decide to go swimming but beach has box jellyfish and you die'
+    elsif first_direction.include?  'south'
+        puts 'You find a river filled with saltwater crocodiles. Do you attempt to cross or run away?'
+    else
+        puts 'please enter direction'
+    end
 end
+
+
 
 second_direction = gets.downcase.chomp
 if second_direction.include? 'run'
@@ -29,7 +34,7 @@ else
 
 end
 
-puts 'Once you get to the other side of the river, you see a cave. After the entrance, there are four paths.'
+puts 'Once you get to the other side of the river, you see a cave. After the entrance, there are four paths. North, East, West, South'
 
 third_direction = gets.downcase.chomp
 if third_direction.include? 'north'
@@ -42,7 +47,6 @@ elsif third_direction.include? 'west'
     puts 'You find a chamber with a riddle on the wall, you must speak the answer to open the door'
 else   
     puts 'please enter direction'
-
 end
 
     
